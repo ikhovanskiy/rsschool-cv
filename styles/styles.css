@@ -1,0 +1,172 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+a, a.text:active {
+    text-decoration:none;
+    color: #000;
+}
+.conteiner{
+   display:flex;
+   flex-direction: column;
+}
+   header{
+       position: fixed;
+       width: 100%;
+       background-color: #F6F6F6;
+       border-bottom: 1px solid #828282 ;
+   }
+        .menu {
+            margin: auto;
+            max-width: 1200px;
+            
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+            .menuBottoms {
+                margin: 15px 0 15px 0;
+                text-align: center;
+                font-family: Gilroy-Bold;
+                font-size: 18px;
+            }
+      
+       main{
+        padding-top: 60px;
+        display:flex;
+        flex-direction: column;
+       }
+            .Me{
+                flex-basis: 500px;    
+                display: flex;
+                flex-direction: column;   
+                justify-content: center;      
+            }
+                .Me1{
+                    display: flex;
+                    
+                    justify-content: center;
+                }
+                    .aboutMe2{
+                        order: 1;
+                        flex-basis: 300px;
+                        font-family: Gilroy-Bold;
+                        font-size: 47.3392px;
+                        line-height: 59px;
+                        color: #070707;
+                    }
+                    .aboutMe3{
+                        order: 2;
+                        flex-basis: 900px;
+                        font-family: Gilroy-Medium;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #070707;
+                        text-align: center;
+                        align-self: center;
+                        }
+                    
+                .Me2{
+                    display: flex;
+                    justify-content: center;
+                }
+                .aboutMe4{
+                        
+                      flex-basis: 1200px;  
+                }
+            .aboutMe, .engLvl{
+                flex-basis: 500px;
+                text-align: center;
+                background: #F6F6F6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .aboutMe div, .engLvl div{
+                    flex-basis: 1200px;
+                }
+                .skillsinside1 h1, footer h1{
+                    padding: 30px;
+                }
+                .aboutMe p, .skillsinside1 p, .engLvl p, footer p{
+                    padding: 15px;
+                    font-family: Gilroy-Medium;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            .skills{
+                flex-basis: 500px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+                .skillsinside1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .skillsinside1 div{
+                    flex-basis: 1200px;
+                    }
+                .skillsinside2 {
+                    display: flex;
+                    justify-content: center;
+                }
+                    .skillsinside21{
+                        flex-basis: 1200px; 
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                        .skillsinside3 {
+                            text-align:center;
+                            font-family: Gilroy-Bold;
+                            font-size: 14px;
+                            line-height: 17px;
+                            padding: 15px;
+                        }
+                            .stars{
+                                display: flex;
+                                justify-content: space-around;
+                            }
+                            
+
+        footer {
+            text-align: center;
+            flex-basis: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .contacts {
+                flex-basis: 1200px;
+                display: flex;
+                flex-direction: column;
+            }
+                .contactsImg{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                
+             
+                
+
+.skills img{
+width: 90px;
+height: 90px;
+}
+.aboutMe4 img{
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+ footer img{
+    width: 50px;
+    height: 50px;
+    }
+.stars img{
+    width: 10px;
+    height: 10px;
+    }
