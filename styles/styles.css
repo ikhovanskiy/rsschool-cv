@@ -19,7 +19,7 @@
          .menu {
              margin: auto;
              max-width: 1200px;
- 
+
              display: flex;
              justify-content: space-around;
              flex-direction: row;
@@ -36,14 +36,14 @@
          flex-direction: column;
         }
              .Me{
-                 flex-basis: 500px;    
+                 flex-basis: 500px;
                  display: flex;
-                 flex-direction: column;   
-                 justify-content: center;      
+                 flex-direction: column;
+                 justify-content: center;
              }
                  .Me1{
                      display: flex;
- 
+
                      justify-content: center;
                  }
                      .aboutMe2{
@@ -69,7 +69,7 @@
                      justify-content: center;
                  }
                  .aboutMe4{
-                       flex-basis: 1200px;  
+                       flex-basis: 1200px;
                  }
              .aboutMe, .engLvl{
                  flex-basis: 500px;
@@ -112,7 +112,7 @@
                      justify-content: center;
                  }
                      .skillsinside21{
-                         flex-basis: 1200px; 
+                         flex-basis: 1200px;
                          display: flex;
                          justify-content: space-evenly;
                      }
