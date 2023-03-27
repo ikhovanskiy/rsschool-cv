@@ -30,7 +30,6 @@
                  font-family: Gilroy-Bold;
                  font-size: 18px;
              }
- 
         main{
          padding-top: 60px;
          display:flex;
@@ -65,13 +64,11 @@
                          text-align: center;
                          align-self: center;
                          }
- 
                  .Me2{
                      display: flex;
                      justify-content: center;
                  }
                  .aboutMe4{
- 
                        flex-basis: 1200px;  
                  }
              .aboutMe, .engLvl{
@@ -130,8 +127,6 @@
                                  display: flex;
                                  justify-content: space-around;
                              }
- 
- 
          footer {
              text-align: center;
              flex-basis: 300px;
@@ -149,10 +144,6 @@
                      flex-direction: row;
                      justify-content: space-around;
                  }
- 
- 
- 
- 
  .skills img{
  width: 90px;
  height: 90px;
